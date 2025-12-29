@@ -23,7 +23,7 @@ export function About() {
                                 My name is <strong className="text-white">{portfolioData.personal.name}</strong>. I am a {portfolioData.personal.role}, driven by the challenge of building systems that are not just functional, but {portfolioData.personal.tagline.toLowerCase()}
                             </p>
                             <p>
-                                Starting with curiosity, I've transitioned into a real-world system builder. My academic background in Computer Science at Joseph Ayo Babalola University provides the theoretical foundation, while my hands-on experience in hackathons and leadership roles drives my practical application.
+                                Starting with curiosity, I&apos;ve transitioned into a real-world system builder. My academic background in Computer Science at Joseph Ayo Babalola University provides the theoretical foundation, while my hands-on experience in hackathons and leadership roles drives my practical application.
                             </p>
                             <p>
                                 I am passionate about secure systems, automation, AI-assisted tools, and leveraging technology for educational and faith-based communities. I believe in clean logic, security-first thinking, and long-term scalability.

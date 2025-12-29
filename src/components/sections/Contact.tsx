@@ -2,10 +2,9 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input"; // We need to create this or use standard input
-import { Textarea } from "@/components/ui/textarea"; // Same here
-// Simplification: We'll inline simple input styles since we didn't scaffold ui/input and ui/textarea yet 
-// to avoid "module not found" if I forget one.
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+
 
 export function Contact() {
     return (
@@ -26,7 +25,7 @@ export function Contact() {
                             Get In <span className="text-cyan-400">Touch</span>
                         </h2>
                         <p className="text-slate-400 text-lg mb-8 max-w-md">
-                            Whether you have a project in mind, need backend architectural advice, or just want to connect, I'm open to opportunities.
+                            Whether you have a project in mind, need backend architectural advice, or just want to connect, I&apos;m open to opportunities.
                         </p>
 
                         <div className="space-y-6">
@@ -57,16 +56,16 @@ export function Contact() {
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-slate-300">Name</label>
-                                    <input className="flex h-10 w-full rounded-md border border-white/10 bg-slate-900/50 px-3 py-2 text-sm text-white placeholder:text-slate-500 focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500" placeholder="John Doe" />
+                                    <Input className="bg-slate-900/50 border-white/10 text-white placeholder:text-slate-500 focus:border-cyan-500 focus:ring-cyan-500" placeholder="John Doe" />
                                 </div>
                                 <div className="space-y-2">
                                     <label className="text-sm font-medium text-slate-300">Email</label>
-                                    <input className="flex h-10 w-full rounded-md border border-white/10 bg-slate-900/50 px-3 py-2 text-sm text-white placeholder:text-slate-500 focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500" placeholder="john@example.com" type="email" />
+                                    <Input className="bg-slate-900/50 border-white/10 text-white placeholder:text-slate-500 focus:border-cyan-500 focus:ring-cyan-500" placeholder="john@example.com" type="email" />
                                 </div>
                             </div>
                             <div className="space-y-2">
                                 <label className="text-sm font-medium text-slate-300">Message</label>
-                                <textarea className="flex min-h-[120px] w-full rounded-md border border-white/10 bg-slate-900/50 px-3 py-2 text-sm text-white placeholder:text-slate-500 focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500" placeholder="Your message here..." />
+                                <Textarea className="min-h-[120px] bg-slate-900/50 border-white/10 text-white placeholder:text-slate-500 focus:border-cyan-500 focus:ring-cyan-500" placeholder="Your message here..." />
                             </div>
                             <Button className="w-full bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500">
                                 Send Message
