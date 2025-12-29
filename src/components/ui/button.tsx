@@ -48,7 +48,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         // Actually, I didn't add radix-ui to package.json. I should stick to standard HTML button for now to be safe.
 
         return (
-            <button
+            <Comp
                 className={cn(buttonVariants({ variant, size, className }))}
                 ref={ref}
                 {...props}
