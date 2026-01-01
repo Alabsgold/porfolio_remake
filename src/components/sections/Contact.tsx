@@ -35,7 +35,7 @@ export function Contact() {
                                 </div>
                                 <div>
                                     <div className="text-sm text-slate-500">Email</div>
-                                    <div className="font-medium text-white">contact@alabiemmanuel.com</div>
+                                    <div className="font-medium text-white">emmaalabi31@gmail.com</div>
                                 </div>
                             </div>
 
@@ -45,7 +45,7 @@ export function Contact() {
                                 </div>
                                 <div>
                                     <div className="text-sm text-slate-500">GitHub</div>
-                                    <div className="font-medium text-white">github.com/alabiemmanuel</div>
+                                    <div className="font-medium text-white">github.com/Alabsgold</div>
                                 </div>
                             </div>
                         </div>

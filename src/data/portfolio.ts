@@ -4,8 +4,8 @@ export const portfolioData = {
         role: "Backend-Focused Full-Stack Developer",
         tagline: "Engineering Secure, Scalable, and Intelligent Digital Systems.",
         bio: "I am a Backend-Focused Software Engineer building intelligent systems, APIs, and digital products with Python, JavaScript, and modern web technologies. With a strong foundation in Computer Science from Joseph Ayo Babalola University, I specialize in creating modular, scalable, and secure solutions.",
-        email: "contact@alabiemmanuel.com", // Placeholder
-        github: "https://github.com/alabiemmanuel", // Placeholder
+        email: "emmaalabi31@gmail.com", // Placeholder
+        github: "https://github.com/Alabsgold/", // Placeholder
         resumeUrl: "/resume.pdf", // Placeholder
     },
     skills: {

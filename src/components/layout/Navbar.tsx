@@ -49,7 +49,7 @@ export function Navbar() {
                         </Link>
                     ))}
                     <a
-                        href="https://github.com/alabiemmanuel"
+                        href="https://github.com/Alabsgold"
                         target="_blank"
                         rel="noreferrer"
                         className="text-slate-300 hover:text-white transition-colors"
