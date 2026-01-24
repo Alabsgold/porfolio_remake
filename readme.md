@@ -88,3 +88,5 @@ To create an optimized production build
 ```bash
     npm start
 ```
+
+@Alabi Emmanuel. 2026
